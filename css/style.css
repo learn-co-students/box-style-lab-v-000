@@ -7,6 +7,13 @@ body, html {
   text-align: center;
 }
 
+body {
+  background-image: url("../images/white-wood.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .container, h1 {
   width: 80%;
   max-width: 600px;
@@ -20,6 +27,7 @@ h4 {
   display: inline-block;
   padding: 5px;
   margin: 20px 0 0 0;
+  background: linear-gradient(to right, #FFF, #000);
 }
 
 .amiable {
@@ -53,4 +61,9 @@ h4 {
 
 .large {
   width: 303%;
+}
+
+img {
+  border: 1px solid grey;
+  box-sizing: border-box;
 }
