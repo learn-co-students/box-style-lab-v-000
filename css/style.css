@@ -1,56 +1,71 @@
-body, html {
-  width: 100%;
-  height: 100%;
-  font-family: Apple Chancery, cursive;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Apple Chancery, cursive;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    background-image: url("../images/white-wood.jpg");
 }
 
-.container, h1 {
-  width: 80%;
-  max-width: 600px;
-  min-width: 400px;
-  padding: 10px;
-  margin: 10px auto;
+
+/* .. means one level up from images. */
+
+.container,
+h1 {
+    width: 80%;
+    max-width: 600px;
+    min-width: 400px;
+    padding: 10px;
+    margin: 10px auto;
 }
 
 h4 {
-  width: fit-content;
-  display: inline-block;
-  padding: 5px;
-  margin: 20px 0 0 0;
+    width: fit-content;
+    display: inline-block;
+    padding: 5px;
+    margin: 20px 0 0 0;
 }
 
 .amiable {
-  border: 1px solid #22aa44;
-  box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
-  background-color: #44cc66;
-
+    border: 1px solid #22aa44;
+    box-shadow: -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
+    background-color: #44cc66;
+    background: linear-gradient(to left, #44cc66, #22aa44);
 }
 
 .indifferent {
-  background-color: #dddd22;
+    border: 1px #94943b;
+    box-shadow: -1px 1px #94943b, -2px 2px #94943b, -3px 3px #94943b, -4px 4px #94943b, -5px 5px #94943b;
+    background-color: #dddd22;
+    background: linear-gradient(to left, #44cc66, #22aa44);
 }
 
+
+/* box shadow and border to was added to indifferent and dubious */
+
 .dubious {
-  background-color: #dd4444;
+    border: 1px #9e2f2f;
+    box-shadow: -1px 1px #9e2f2f, -2px 2px #9e2f2f, -3px 3px #9e2f2f, -4px 4px #9e2f2f, -5px 5px #9e2f2f;
+    background-color: #dd4444;
+    background: linear-gradient(to left, #dd4444, #9e2f2f);
 }
 
 .column {
-  width: 30%;
-  display: inline-block;
+    width: 30%;
+    display: inline-block;
 }
 
 .small {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .med {
-  width: 203.5%;
+    width: 203.5%;
 }
 
 .large {
-  width: 303%;
+    width: 303%;
 }
