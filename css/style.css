@@ -13,6 +13,7 @@ body, html {
   min-width: 400px;
   padding: 10px;
   margin: 10px auto;
+  background-color: red;
 }
 
 h4 {
