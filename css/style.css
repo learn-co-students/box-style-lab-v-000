@@ -5,6 +5,7 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
+  /* add background image, set to 'fixed', size='cover' */
   background: url("../images/white-wood.jpg") no-repeat fixed;
   background-size: cover;
 }
@@ -40,6 +41,7 @@ img:hover {
   background-color: #44cc66;
 }
 
+/* add over-the-top, mind-blowing, linear-gradient() effect */
 h4.amiable {
   background: linear-gradient(
     to right,
