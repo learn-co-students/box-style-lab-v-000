@@ -37,9 +37,17 @@ h4 {
   background-color: #dd4444;
 }
 
+img {
+  box-sizing: border-box;
+  border: 5px;
+  border: azure;
+
+}
+
 .column {
   width: 30%;
   display: inline-block;
+
 }
 
 .small {
@@ -53,4 +61,5 @@ h4 {
 
 .large {
   width: 303%;
+  order: 5px;
 }
