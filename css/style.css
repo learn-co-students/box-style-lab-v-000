@@ -1,56 +1,82 @@
-body, html {
-  width: 100%;
-  height: 100%;
-  font-family: Apple Chancery, cursive;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Apple Chancery, cursive;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    background-image: url("/images/white-wood.jpg");
+    background-repeat: no-repeat;
+    background-size: fixed;
 }
 
-.container, h1 {
-  width: 80%;
-  max-width: 600px;
-  min-width: 400px;
-  padding: 10px;
-  margin: 10px auto;
+.container,
+h1 {
+    width: 80%;
+    max-width: 600px;
+    min-width: 400px;
+    padding: 10px;
+    margin: 10px auto;
 }
 
 h4 {
-  width: fit-content;
-  display: inline-block;
-  padding: 5px;
-  margin: 20px 0 0 0;
+    width: fit-content;
+    display: inline-block;
+    padding: 5px;
+    margin: 20px 0 0 0;
+}
+
+h4.amiable {
+    background: linear-gradient(0.25turn, #22aa44, #44cc66, rgb(188, 224, 184));
+}
+
+h4.indifferent {
+    background: linear-gradient(0.25turn, #dddd22, #f5f575, rgb(226, 236, 170));
+}
+
+h4.dubious {
+    background: linear-gradient(0.25turn, #dd4444, #ec5656, rgb(238, 207, 207));
 }
 
 .amiable {
-  border: 1px solid #22aa44;
-  box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
-  background-color: #44cc66;
-
+    border: 1px solid #22aa44;
+    box-shadow: -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
+    background-color: #44cc66;
 }
 
 .indifferent {
-  background-color: #dddd22;
+    background-color: #dddd22;
+    box-shadow: -1px 1px #dddd22, -2px 2px #dddd22, -3px 3px #dddd22, -4px 4px #dddd22, -5px 5px #dddd22;
+    background-color: #f5f575;
 }
 
 .dubious {
-  background-color: #dd4444;
+    background-color: #dd4444;
+    box-shadow: -1px 1px #dd4444, -2px 2px #dd4444, -3px 3px #dd4444, -4px 4px #dd4444, -5px 5px#dd4444;
+    background-color: #ec5656;
 }
 
 .column {
-  width: 30%;
-  display: inline-block;
+    width: 30%;
+    display: inline-block;
 }
 
 .small {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid darkgray;
 }
 
 .med {
-  width: 203.5%;
+    width: 203.5%;
+    box-sizing: border-box;
+    border: 1px solid darkgray;
 }
 
 .large {
-  width: 303%;
+    width: 303%;
+    box-sizing: border-box;
+    border: 1px solid darkgray;
 }
