@@ -5,6 +5,7 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
+  background-image: url("https://github.com/oakesler/box-style-lab-v-000/blob/master/images/white-wood.jpg?raw=true");
 }
 
 .container, h1 {
@@ -26,15 +27,30 @@ h4 {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
+}
 
+h4.amiable{
+  background: linear-gradient(to right, #006400, #44cc66);
+}
+
+h4.indifferent{
+  background: linear-gradient(to right, #666600, #dddd22);
+}
+
+h4.dubious{
+  background: linear-gradient(to right, #800000, #dd4444);
 }
 
 .indifferent {
   background-color: #dddd22;
+  box-shadow: -1px 1px #c2b280, -2px 2px #c2b280, -3px 3px #c2b280, -4px 4px #c2b280, -5px 5px #c2b280; 
+  border: 1px solid #c2b280;
 }
 
 .dubious {
   background-color: #dd4444;
+  border: 1px solid #b22222;
+  box-shadow: -1px 1px #b22222, -2px 2px #b22222, -3px 3px #b22222, -4px 4px #b22222, -5px 5px #b22222;
 }
 
 .column {
@@ -54,3 +70,20 @@ h4 {
 .large {
   width: 303%;
 }
+
+img {
+  border: solid;
+}
+
+/*section {
+  box-shadow: -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44; 
+}*/
+
+/*section title {
+  background: linear-gradient(#e66465, #9198e5);
+}*/
+
+/*.container {
+  box-shadow: -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44; 
+}*/
+
