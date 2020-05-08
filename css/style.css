@@ -31,6 +31,8 @@ h4 {
 
 .indifferent {
   background-color: #dddd22;
+  border: 1px solid #aaaa00;
+  box-shadow:  -1px 1px #aaaa00, -2px 2px #aaaa00, -3px 3px #aaaa00, -4px 4px #aaaa00, -5px 5px #aaaa00;
 }
 
 .dubious {
@@ -53,4 +55,46 @@ h4 {
 
 .large {
   width: 303%;
+}
+
+img {
+  box-sizing: border-box;
+  border: 2px solid #333;
+}
+
+img:hover {
+  transition-duration: 1s;
+  transform: scale(1.05);
+}
+
+h4.amiable {
+  background: linear-gradient(
+    to right,
+    #118833,
+    #66ee88
+  );
+}
+
+h4.amiable:hover {
+  background: linear-gradient(
+    to right,
+    #66ee88,
+    #118833
+  );
+}
+
+h4.dubious {
+  background: linear-gradient(
+    to right,
+    #700,
+    #a00
+  );
+}
+
+h4.dubious:hover {
+  background: linear-gradient(
+    to right,
+    #a00,
+    #700
+  );
 }
