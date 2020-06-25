@@ -11,10 +11,6 @@ body, html {
   background-repeat: no-repeat;
 }
 
-body {
-
-}
-
 .container, h1 {
   width: 80%;
   max-width: 600px;
@@ -35,15 +31,15 @@ img {
   box-sizing: border-box;
 }
 
-h4.amiable {
-
-}
-
 .amiable {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
 
+}
+
+h4.amiable {
+  background: linear-gradient(to right, #138934, #44cc66)
 }
 
 .indifferent {
@@ -52,10 +48,18 @@ h4.amiable {
   background-color: #dddd22;
 }
 
+h4.indifferent {
+  background: linear-gradient(to right, #767700, #dddd22)
+}
+
 .dubious {
   border: 1px solid #aa2322;
   box-shadow:  -1px 1px #aa2322, -2px 2px #aa2322, -3px 3px #aa2322, -4px 4px #aa2322, -5px 5px #aa2322;
   background-color: #dd4444;
+}
+
+h4.dubious {
+  background: linear-gradient(to right, #760500, #dd4444)
 }
 
 .column {
