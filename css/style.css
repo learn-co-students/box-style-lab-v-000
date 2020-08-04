@@ -5,6 +5,8 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
+  background-image: url(images/white-wood.jpg);
+  background-repeat:repeat;
 }
 
 .container, h1 {
@@ -13,6 +15,9 @@ body, html {
   min-width: 400px;
   padding: 10px;
   margin: 10px auto;
+  -moz-box-shadow: -5px -5px 5px #888;
+  -webkit-box-shadow: -5px -5px 5px #888;
+box-shadow: inset -5px -5px 5px #888;
 }
 
 h4 {
@@ -25,21 +30,33 @@ h4 {
 .amiable {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
+  -moz-box-shadow: -5px -5px 5px #888;
+  -webkit-box-shadow: -5px -5px 5px #888;
+box-shadow: inset -5px -5px 5px #888;
   background-color: #44cc66;
 
 }
 
 .indifferent {
   background-color: #dddd22;
+  -moz-box-shadow: -5px -5px 5px #888;
+  -webkit-box-shadow: -5px -5px 5px #888;
+box-shadow: inset -5px -5px 5px #888;
 }
 
 .dubious {
   background-color: #dd4444;
+  -moz-box-shadow: -5px -5px 5px #888;
+  -webkit-box-shadow: -5px -5px 5px #888;
+box-shadow: inset -5px -5px 5px #888;
 }
 
 .column {
   width: 30%;
   display: inline-block;
+  -moz-box-shadow: -5px -5px 5px #888;
+  -webkit-box-shadow: -5px -5px 5px #888;
+box-shadow: inset -5px -5px 5px #888;
 }
 
 .small {
@@ -53,4 +70,12 @@ h4 {
 
 .large {
   width: 303%;
+}
+
+img {
+  border: 10px Solid #555;
+}
+
+#grad {
+  background-image: linear-gradient(red, yellow, blue);
 }
