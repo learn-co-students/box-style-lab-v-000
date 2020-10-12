@@ -38,12 +38,17 @@ img {
 .indifferent {
   border: 1px solid #bb0;
   box-shadow: -1px 1px #bb0, -2px 2px #bb0, -3px 3px #bb0, -4px 4px #bb0, -5px 5px #bb0;
+  border: 1px solid #aaaa00;
+  /* Their answer: border: 1px solid #aaaa00;
+  box-shadow:  -1px 1px #aaaa00, -2px 2px #aaaa00, -3px 3px #aaaa00, -4px 4px #aaaa00, -5px 5px #aaaa00; */
   background-color: #dddd22;
 }
 
 .dubious {
   border: 1px solid #b22;
   box-shadow: -1px 1px #b22, -2px 2px #b22, -3px 3px #b22, -4px 4px #b22, -5px 5px #b22;
+  /* Their answer: border: 1px solid #aa2222;
+  box-shadow: -1px 1px #aa2222, -2px 2px #aa2222, -3px 3px #aa2222, -4px 4px #aa2222, -5px 5px #aa2222; */
   background-color: #dd4444;
 }
 
@@ -66,13 +71,24 @@ img {
 }
 
 h4.amiable {
-  background: linear-gradient(to right, #008822, #44cc66);
+  background: linear-gradient(to right, #183, #44cc66);
+  /* Their answer: background: linear-gradient(to right, #183, #6e8); */
 }
 
 h4.indifferent {
   background: linear-gradient(to right, #777700, #dddd22);
+  /* Their answer: background: linear-gradient(
+    to right,
+    #770,
+    #aa0
+  ); */
 }
 
 h4.dubious {
-  background: linear-gradient(to right, #770000, #dd4444)
+  background: linear-gradient(to right, #770000, #dd4444);
+  /* Their answer: background: linear-gradient(
+    to right,
+    #700,
+    #a00
+  ); */
 }
