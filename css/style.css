@@ -22,19 +22,38 @@ h4 {
   margin: 20px 0 0 0;
 }
 
+h4.amiable {
+background: linear-gradient(to right, #44cc66, #1d6a30);
+}
+
 .amiable {
   border: 1px solid #22aa44;
-  box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
+  box-shadow:  -1px 1px #1d6a30, -2px 2px #1d6a30, -3px 3px #1d6a30, -4px 4px #1d6a30, -5px 5px #1d6a30;
   background-color: #44cc66;
 
 }
 
+h4.indifferent {
+  background: linear-gradient(to right, #dddd22, #999918);
+}
+
 .indifferent {
   background-color: #dddd22;
+  box-shadow:  -1px 1px #999918, -2px 2px #999918, -3px 3px #999918, -4px 4px #999918, -5px 5px #999918;
+
+}
+
+img {
+  border: 5px solid #555;
 }
 
 .dubious {
   background-color: #dd4444;
+  box-shadow:  -1px 1px #3f0b0b, -2px 2px #3f0b0b, -3px 3px #3f0b0b, -4px 4px #3f0b0b, -5px 5px #3f0b0b;
+
+}
+h4.dubious {
+  background: linear-gradient(to right, #dd4545, #3f0b0b);
 }
 
 .column {
